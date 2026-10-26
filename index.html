@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0f766e">
+  <title>Reflux Diary</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="main"></main>
+  <nav class="nav">
+    <button data-act="tab" data-v="log" class="active"><i>📒</i>Log</button>
+    <button data-act="tab" data-v="checkin"><i>🩺</i>Check-in<span class="dot" hidden></span></button>
+    <button data-act="tab" data-v="insights"><i>📊</i>Insights</button>
+    <button data-act="tab" data-v="library"><i>📚</i>Library</button>
+    <button data-act="tab" data-v="data"><i>💾</i>Data</button>
+  </nav>
+  <div id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
